@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/3/6 8:45:20。
+     1>项目“D:\MySrc\c++内存查看工具\MemoryView\MemoryView\MemoryView.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MemoryView.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MemoryView.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MemoryViewDlg.cpp
+         MemoryViewDlg.cpp
+     1>d:\mysrc\c++内存查看工具\memoryview\memoryview\memoryviewdlg.cpp(198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\mysrc\c++内存查看工具\memoryview\memoryview\memoryviewdlg.cpp(236): warning C4018: “<”: 有符号/无符号不匹配
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MySrc\c++内存查看工具\MemoryView\Debug\MemoryView.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\MemoryView.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MySrc\c++内存查看工具\MemoryView\Debug\MemoryView.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MySrc\c++内存查看工具\MemoryView\Debug\MemoryView.lib" /MACHINE:X86 Debug\MemoryView.res
+         Debug\MemoryView.exe.embed.manifest.res
+         Debug\MemoryView.obj
+         Debug\MemoryViewDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MemoryView.exe.embed.manifest" /manifest Debug\MemoryView.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         MemoryView.vcxproj -> D:\MySrc\c++内存查看工具\MemoryView\Debug\MemoryView.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MemoryView.unsuccessfulbuild”。
+         正在对“Debug\MemoryView.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\MySrc\c++内存查看工具\MemoryView\MemoryView\MemoryView.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.40
